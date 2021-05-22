@@ -1,0 +1,55 @@
+#github-widget {
+    background-color: transparent;
+    flex-shrink: 1;
+    align-content: space-between;
+    max-height: 312px;
+    max-width: 1012px;
+    display: flex;
+}
+
+#github-avatar {
+    max-width: 280px;
+    border-radius: 50%;
+}
+
+#github-info {
+    margin-left: 32px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #e1e4e8;
+    flex: 1;
+}
+
+#github-id {
+    margin: 16px;
+}
+
+#github-name {
+    color: #24292e;
+    margin: 0px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+#github-login {
+    margin: 0px;
+    margin-top: 4px;
+    font-size: 18px;
+    color: grey;
+    margin-top: 2px;
+}
+
+#github-bio {
+    text-align: center;
+    margin: 32px 16px;
+}
+
+#github-stats {
+    margin: 16px;
+    display: flex;
+    align-content: center;
+}
+
+app-github-stat{
+    margin: auto;
+}

@@ -1,3 +1,6 @@
 export const environment = {
-  production: true
+  production: true,
+  endpoint: {
+    github: "https://api.github.com/",
+  },
 };

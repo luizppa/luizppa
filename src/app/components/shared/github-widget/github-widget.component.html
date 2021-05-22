@@ -1,0 +1,19 @@
+<div id="github-widget">
+    <img id="github-avatar" [src]="user?.avatar_url"/>
+    <div id="github-info">
+        <a [href]="user?.html_url" target="_blank">
+            <div id="github-id">
+                <p id="github-name">{{ user?.name }}</p>
+                <p id="github-login">@{{ user?.login }}</p>
+            </div>
+        </a>
+        <div id="github-bio">
+            {{ user?.bio }}
+        </div>
+        <div id="github-stats">
+            <app-github-stat [link]="user?.html_url + '?tab=repositories'" [stat]="user?.public_repos" label="Repositórios"></app-github-stat>
+            <app-github-stat [link]="user?.html_url + '?tab=following'" [stat]="user?.following" label="Seguindo"></app-github-stat>
+            <app-github-stat [link]="user?.html_url + '?tab=followers'" [stat]="user?.followers" label="Seguidores"></app-github-stat>
+        </div>
+    </div>
+</div>
