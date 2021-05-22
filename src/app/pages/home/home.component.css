@@ -9,13 +9,17 @@
     text-align: center;
 }
 
+#content {
+    min-height: 100vh;
+}
+
 #medias {
     margin-top: 192px;
+    padding: 0 16px;
     width: 100%;
     background-color: white;
     display: flex;
     justify-content: center;
-    min-height: 100vh;
 }
 
 app-github-widget {

@@ -64,3 +64,36 @@ h1::after {
     zoom: 1;
     background-color: white;
 }
+
+@media (max-width: 1080px) {
+
+    .section { 
+        height: 400px;
+    }
+
+    .parallax::after {
+        transform: translateZ(-2px) translateY(-240px) scale(2);
+    }
+
+    p {
+        font-size: 28px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    
+    h1 {
+        font-size: 64px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+    
+
+    h1::before {
+        display: none;
+    }
+
+    h1::after {
+        display: none;
+    }
+    
+}

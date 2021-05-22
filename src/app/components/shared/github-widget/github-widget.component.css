@@ -41,3 +41,26 @@
 app-github-stat{
     margin: auto;
 }
+
+@media (max-width: 1080px) {
+    #github-widget {
+        flex-wrap: wrap;
+        align-content: center;
+        max-height: none;
+    }
+
+    #github-info {
+        margin: 0;
+        margin-top: 16px;
+        display: block;
+    }
+
+    #github-avatar {
+        margin: auto;
+    }
+
+    #github-contributions {
+        display: none;
+    }
+    
+}

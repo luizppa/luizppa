@@ -10,6 +10,7 @@ import { GithubStatComponent } from './components/shared/github-widget/github-st
 import { GithubNameComponent } from './components/shared/github-widget/github-name/github-name.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ParallaxComponent } from './components/shared/parallax/parallax.component';
+import { ThumbnailComponent } from './components/shared/thumbnail/thumbnail.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { ParallaxComponent } from './components/shared/parallax/parallax.compone
     GithubNameComponent,
     HomeComponent,
     ParallaxComponent,
+    ThumbnailComponent,
   ],
   imports: [
     BrowserModule,

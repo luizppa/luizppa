@@ -1,0 +1,7 @@
+.background {
+    max-width: 350px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 6px;
+    filter: grayscale(100%);
+}
