@@ -4,7 +4,9 @@
   "compilerOptions": {
     "outDir": "./out-tsc/spec",
     "types": [
-      "jasmine"
+      "jasmine",
+      "jquery",
+      "materialize-css"
     ]
   },
   "files": [
@@ -14,5 +16,9 @@
   "include": [
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
+  ],
+  "eclude": [
+    "src/test.ts",
+    "**/*.spec.ts"
   ]
 }
