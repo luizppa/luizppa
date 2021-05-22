@@ -1,6 +1,12 @@
+.wrapper {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    perspective: 2px;
+}
+
 #title {
     text-align: center;
-    margin-bottom: 800px;
 }
 
 #medias {

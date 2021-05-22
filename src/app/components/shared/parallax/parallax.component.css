@@ -1,0 +1,29 @@
+.section { 
+    position: relative;
+    height: 600px;
+    margin-bottom: -80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 3px #000;
+    z-index: -1;
+}
+
+.parallax::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transform: translateZ(-2px) translateY(-164px) scale(2);
+    background-size: 100%;
+    z-index: -2;
+}
+
+.background::after {
+    background-size: cover;
+    background-position-x: center;
+    background-image: url('../../../../assets/images/parallax-background.jpg');
+}

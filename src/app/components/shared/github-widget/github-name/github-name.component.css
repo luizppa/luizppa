@@ -20,3 +20,7 @@
     color: grey;
     margin-top: 2px;
 }
+
+a:hover {
+    text-decoration: none;
+}
