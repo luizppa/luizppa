@@ -3,12 +3,13 @@
     <div id="github-info">
         <app-github-name [profile_url]="user?.html_url" [name]="user?.name" [login]="user?.login"></app-github-name>
         <div id="github-bio">
-            {{ user?.bio }}
+            <p>{{ user?.bio }}</p>
         </div>
         <div id="github-stats">
-            <app-github-stat [link]="user?.html_url + '?tab=repositories'" [stat]="user?.public_repos" label="Repositórios"></app-github-stat>
-            <app-github-stat [link]="user?.html_url + '?tab=following'" [stat]="user?.following" label="Seguindo"></app-github-stat>
-            <app-github-stat [link]="user?.html_url + '?tab=followers'" [stat]="user?.followers" label="Seguidores"></app-github-stat>
+            <app-github-stat [link]="get_tab('repositories')" [stat]="user?.public_repos" label="Repositórios"></app-github-stat>
+            <app-github-stat [link]="get_tab('following')" [stat]="user?.following" label="Seguindo"></app-github-stat>
+            <app-github-stat [link]="get_tab('followers')" [stat]="user?.followers" label="Seguidores"></app-github-stat>
         </div>
     </div>
 </div>
+<img id="github-contributions" [src]="get_contributions_address()" />

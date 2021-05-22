@@ -1,0 +1,11 @@
+#title {
+    text-align: center;
+    margin-bottom: 800px;
+}
+
+#medias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 200px;
+}

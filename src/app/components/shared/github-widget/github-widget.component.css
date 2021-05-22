@@ -9,6 +9,7 @@
 
 #github-avatar {
     max-width: 280px;
+    max-height: 280px;
     border-radius: 32px;
 }
 
@@ -30,6 +31,11 @@
     margin: 16px;
     display: flex;
     align-content: center;
+}
+
+#github-contributions {
+    margin-top: 16px;
+    width: 100%;
 }
 
 app-github-stat{

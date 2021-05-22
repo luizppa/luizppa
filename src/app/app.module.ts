@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { GithubWidgetComponent } from './components/shared/github-widget/github-widget.component';
 import { GithubStatComponent } from './components/shared/github-widget/github-stat/github-stat.component';
 import { GithubNameComponent } from './components/shared/github-widget/github-name/github-name.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { GithubNameComponent } from './components/shared/github-widget/github-na
     GithubWidgetComponent,
     GithubStatComponent,
     GithubNameComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

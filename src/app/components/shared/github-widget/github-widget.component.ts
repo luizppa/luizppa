@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { environment } from '../../../../environments/environment'
 
 import { GithubService } from 'src/app/services/github.service';
 import { GithubUser } from 'src/app/interfaces/github-user';
@@ -17,15 +17,23 @@ export class GithubWidgetComponent implements OnInit {
   constructor(private github: GithubService) { }
 
   ngOnInit(): void {
-    this.loadInfo();
+    this.load_info();
   }
 
-  private loadInfo(){
+  private load_info(){
     this.github.get_profile(this.profile, (user) => {
       this.user = user;
     }, () => {
-      console.log("error comunicating with github");
+      console.log('error comunicating with github');
     });
+  }
+
+  public get_tab(tab: string){
+    return `${this.user?.html_url}?tab=${tab}`;
+  }
+
+  public get_contributions_address(){
+    return `${environment.endpoint.github_contributions_chart}${this.profile}`;
   }
 
 }
