@@ -9,7 +9,7 @@
 
 #github-avatar {
     max-width: 280px;
-    border-radius: 50%;
+    border-radius: 32px;
 }
 
 #github-info {
@@ -20,28 +20,10 @@
     flex: 1;
 }
 
-#github-id {
-    margin: 16px;
-}
-
-#github-name {
-    color: #24292e;
-    margin: 0px;
-    margin-bottom: 4px;
-    font-size: 24px;
-}
-
-#github-login {
-    margin: 0px;
-    margin-top: 4px;
-    font-size: 18px;
-    color: grey;
-    margin-top: 2px;
-}
-
 #github-bio {
     text-align: center;
     margin: 32px 16px;
+    font-size: 18px;
 }
 
 #github-stats {

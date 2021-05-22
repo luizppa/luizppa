@@ -1,0 +1,22 @@
+#github-id {
+    margin: 16px;
+}
+
+#github-name {
+    color: #24292e;
+    margin: 0px;
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+#github-icon {
+    float: right;
+}
+
+#github-login {
+    margin: 0px;
+    margin-top: 4px;
+    font-size: 18px;
+    color: grey;
+    margin-top: 2px;
+}

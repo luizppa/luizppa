@@ -1,12 +1,7 @@
 <div id="github-widget">
     <img id="github-avatar" [src]="user?.avatar_url"/>
     <div id="github-info">
-        <a [href]="user?.html_url" target="_blank">
-            <div id="github-id">
-                <p id="github-name">{{ user?.name }}</p>
-                <p id="github-login">@{{ user?.login }}</p>
-            </div>
-        </a>
+        <app-github-name [profile_url]="user?.html_url" [name]="user?.name" [login]="user?.login"></app-github-name>
         <div id="github-bio">
             {{ user?.bio }}
         </div>

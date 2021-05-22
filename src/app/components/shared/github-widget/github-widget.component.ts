@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 import { GithubService } from 'src/app/services/github.service';
 import { GithubUser } from 'src/app/interfaces/github-user';
