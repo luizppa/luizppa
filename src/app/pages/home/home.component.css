@@ -10,8 +10,14 @@
 }
 
 #medias {
+    margin-top: 192px;
     width: 100%;
+    background-color: white;
     display: flex;
     justify-content: center;
-    margin-bottom: 200px;
+    min-height: 100vh;
+}
+
+app-github-widget {
+    margin-top: -160px;
 }

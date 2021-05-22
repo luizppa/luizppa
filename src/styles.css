@@ -1,0 +1,19 @@
+@font-face {
+    font-family: bebas-neue;
+    src: url("assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");
+}
+
+@font-face {
+    font-family: caveat;
+    src: url("assets/fonts/Caveat/Caveat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: jost-italic;
+    src: url("assets/fonts/Jost/Jost-Italic-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: archivo-black;
+    src: url("assets/fonts/Archivo_Black/ArchivoBlack-Regular.ttf");
+}
