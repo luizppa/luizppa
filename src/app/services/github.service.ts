@@ -3,6 +3,7 @@ import { HttpClient } from '@angular/common/http';
 
 import { environment } from './../../environments/environment';
 import { GithubUser } from '../interfaces/github-user';
+import { GithubRepo } from '../interfaces/github-repo';
 
 @Injectable({
   providedIn: 'root'
@@ -18,4 +19,13 @@ export class GithubService {
       })
       .catch(callback_error);
   }
+
+  public get_repo(user_name: string, repo_name: string, callback: (user: GithubRepo) => void, callback_error: () => void){
+    this.http.get(`${environment.endpoint.github}repos/${user_name}/${repo_name}`).toPromise()
+      .then((res) => {
+        callback(res as GithubRepo);
+      })
+      .catch(callback_error);
+  }
+
 }

@@ -17,9 +17,11 @@
     margin-top: 192px;
     padding: 0 16px;
     width: 100%;
+    min-height: 40vh;
     background-color: white;
     display: flex;
     justify-content: center;
+    /* padding-left: 100px; */
 }
 
 app-github-widget {

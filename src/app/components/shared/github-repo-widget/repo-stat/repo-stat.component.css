@@ -1,0 +1,16 @@
+.repo-stat {
+    display: flex;
+}
+
+.info {
+    margin-left: 8px;
+    width: 50px;
+}
+
+.stat-number {
+    margin-bottom: 2px;
+}
+
+.stat-name {
+    margin-top: 2px;
+}

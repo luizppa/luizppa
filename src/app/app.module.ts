@@ -11,6 +11,9 @@ import { GithubNameComponent } from './components/shared/github-widget/github-na
 import { HomeComponent } from './pages/home/home.component';
 import { ParallaxComponent } from './components/shared/parallax/parallax.component';
 import { ThumbnailComponent } from './components/shared/thumbnail/thumbnail.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { GithubRepoWidgetComponent } from './components/shared/github-repo-widget/github-repo-widget.component';
+import { RepoStatComponent } from './components/shared/github-repo-widget/repo-stat/repo-stat.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +24,9 @@ import { ThumbnailComponent } from './components/shared/thumbnail/thumbnail.comp
     HomeComponent,
     ParallaxComponent,
     ThumbnailComponent,
+    ProjectsComponent,
+    GithubRepoWidgetComponent,
+    RepoStatComponent,
   ],
   imports: [
     BrowserModule,

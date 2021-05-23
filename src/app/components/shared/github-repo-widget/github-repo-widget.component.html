@@ -1,0 +1,17 @@
+
+<div class="github-repo-info">
+    <a [href]="repo?.html_url" target="_blank">
+        <p class="repo-name">
+            {{ repo?.owner.login }}/<b>{{ repo?.name }}</b>
+            <fa-icon id="github-icon" [icon]="github_icon" size="1x"></fa-icon>
+        </p>
+        <p class="repo-description">
+            {{ repo?.description }}
+        </p>
+    </a>
+    <div class="stats">
+        <app-repo-stat [stat]="repo?.open_issues_count" name="Issues" [icon]="issue_icon"></app-repo-stat>
+        <app-repo-stat [stat]="repo?.stargazers_count" name="Stars" [icon]="star_icon"></app-repo-stat>
+        <app-repo-stat [stat]="repo?.forks_count" name="Forks" [icon]="fork_icon"></app-repo-stat>
+    </div>
+</div>

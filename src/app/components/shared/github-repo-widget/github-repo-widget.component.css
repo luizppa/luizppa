@@ -1,0 +1,36 @@
+.github-repo-info {
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #e1e4e8;
+    flex: 1;
+    height: 280px;
+    width: 520px;
+}
+
+.repo-name {
+    font-size: 22px;
+    margin: 32px;
+}
+
+.repo-description {
+    color: rgb(71, 71, 71);
+    margin: 0 32px;
+}
+
+.stats {
+    display: flex;
+    margin-top: 48px;
+}
+
+#github-icon {
+    float: right;
+}
+
+app-repo-stat {
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
