@@ -1,3 +1,20 @@
+:root {
+    /* Pastel blue  */
+    /* --projects-background-color: rgb(136 156 165);
+    --projects-font-color: rgb(255, 255, 255);
+    --projects-font-hover-color: rgb(120, 120, 120); */
+
+    /* Black */
+    /* --projects-background-color: rgb(50, 50, 50);
+    --projects-font-color: rgb(200, 200, 200);
+    --projects-font-hover-color: rgb(80, 80, 80); */
+
+    /* White */
+    --projects-background-color: rgb(255, 255, 255);
+    --projects-font-color: rgb(130, 130, 130);
+    --projects-font-hover-color: rgb(80, 80, 80);
+}
+
 @font-face {
     font-family: bebas-neue;
     src: url("assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf");

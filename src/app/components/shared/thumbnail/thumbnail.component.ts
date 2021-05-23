@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Project } from 'src/app/interfaces/project';
 
 @Component({
   selector: 'app-thumbnail',
@@ -7,7 +8,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ThumbnailComponent implements OnInit {
   @Input()
-  public image: string | null = null;
+  public project: Project | null = null;
 
   constructor() { }
 

@@ -1,7 +1,7 @@
 <div>
     <div class="carousel-container">
         <div *ngFor="let item of items; let i = index">
-            <app-thumbnail [@view_state]="get_state(i)" [image]="item"></app-thumbnail>
+            <app-thumbnail [@view_state]="get_state(i)" [project]="item"></app-thumbnail>
         </div>
     </div>
     <div class="bullets-container">

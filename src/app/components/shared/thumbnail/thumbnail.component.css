@@ -16,10 +16,6 @@
     filter: grayscale(100%);
 }
 
-/* .content-container:hover {
-    filter: blur(2px) grayscale(100%);
-} */
-
 .content-container {
     z-index: 9;
     width: 100%;
@@ -31,4 +27,16 @@
     display: flex;
     align-items: center;
     padding: 48px;
+}
+
+.description {
+    color: white;
+    font-size: 22px;
+    margin: 16px;
+    text-align: center;
+    max-height: 280px;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: jost-italic;
 }

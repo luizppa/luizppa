@@ -24,16 +24,16 @@ app-thumbnail {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: rgb(156, 156, 156);
+    background-color: var(--projects-font-color);
     margin: 16px 4px;
 }
 
 .bullet:hover, .active {
-    background-color: rgb(80, 80, 80);
+    background-color: var(--projects-font-hover-color);
 }
 
 .navigation-button {
-    color: rgb(156, 156, 156);
+    color: var(--projects-font-color);
     margin: 0 8px;
     width: 50px;
     display: flex;
@@ -42,7 +42,7 @@ app-thumbnail {
 }
 
 .navigation-button:hover {
-    color: rgb(80, 80, 80);
+    color: var(--projects-font-hover-color);
 }
 
 .bullet, .navigation-button{

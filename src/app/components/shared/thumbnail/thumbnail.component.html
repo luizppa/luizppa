@@ -1,6 +1,7 @@
-<div class="thumbnail">
-    <img [src]="image" class="background" alt="">
+<div class="thumbnail" *ngIf="project">
+    <img [src]="project.image" class="background" alt="">
     <div class="content-container">
-        <app-github-repo-widget repo_name="web-crawler" user="luizppa"></app-github-repo-widget>
+        <app-github-repo-widget [repo_name]="project.repo.name" [user]="project.repo.owner"></app-github-repo-widget>
+        <p class="description">{{ project.description }}</p>
     </div>
 </div>

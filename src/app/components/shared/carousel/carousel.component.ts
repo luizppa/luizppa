@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import {
   trigger,
   state,
@@ -8,6 +8,7 @@ import {
   keyframes,
 } from '@angular/animations';
 import { faCaretRight, faCaretLeft } from '@fortawesome/free-solid-svg-icons';
+import { Project } from 'src/app/interfaces/project';
 
 export enum CarouselAnimationState {
   OUT = "OUT",
@@ -21,6 +22,8 @@ const scale = {
   main: 1,
   out_right: 0.6,
 };
+
+const animation_time = 1;
 
 const state_styles = {
   side: style({
@@ -61,46 +64,46 @@ const state_styles = {
       state(CarouselAnimationState.OUT, state_styles.out),
 
       transition(`${CarouselAnimationState.MAIN} => ${CarouselAnimationState.OUT}`, [
-        animate('1s ease-out')
+        animate(`${animation_time}s ease-out`)
       ]),
 
       transition(`${CarouselAnimationState.OUT} => ${CarouselAnimationState.MAIN}`, [
-        animate('1s ease-out')
+        animate(`${animation_time}s ease-out`)
       ]),
       
       transition(`${CarouselAnimationState.OUT} => ${CarouselAnimationState.SIDE}`, [
-        animate('1s ease-out', keyframes([
+        animate(`${animation_time}s ease-out`, keyframes([
           state_styles.out_right,
           state_styles.side,
         ]))
       ]),
 
       transition(`${CarouselAnimationState.SIDE} => ${CarouselAnimationState.OUT}`, [
-        animate('1s ease-out', keyframes([
+        animate(`${animation_time}s ease-out`, keyframes([
           state_styles.side,
           state_styles.out_right,
         ]))
       ]),
       
       transition(`${CarouselAnimationState.SIDE} => ${CarouselAnimationState.MAIN}`, [
-        animate('1s ease-out')
+        animate(`${animation_time}s ease-out`)
       ]),
 
       transition(`${CarouselAnimationState.MAIN} => ${CarouselAnimationState.SIDE}`, [
-        animate('1s ease-out')
+        animate(`${animation_time}s ease-out`)
       ]),
     ]),
   ],
 })
 export class CarouselComponent implements OnInit {
+  private enabled: boolean = true;
   private current_item: number = 0;
-  public items: string[] = [
-    "https://www.lufthansa.com/content/dam/lh/images/pixels_variations/c-653594539-1601425.transform/lh-dcep-transform-width-1440/img.jpg",
-    "https://www.cnet.com/a/img/3xyQIrJ16IodF_rjJ4YvtLHZ_9o=/1200x675/2020/10/26/46ea96f3-2fe4-4340-865c-7e5760940965/img-1421.jpg",
-    "https://presse.funk.net/wp-content/uploads/2018/01/20170118_kurzgesagt_artwork_16_9_RGB-2000x1125.png",
-  ];
+
   public right_icon = faCaretRight;
   public left_icon = faCaretLeft;
+
+  @Input()
+  public items: Project[] = [];
 
   constructor() { }
 
@@ -118,21 +121,31 @@ export class CarouselComponent implements OnInit {
   }
 
   public next(){
-    this.current_item++;
-    if(this.current_item >= this.items.length){
-      this.current_item = 0;
+    if(this.enabled){
+      this.current_item++;
+      if(this.current_item >= this.items.length){
+        this.current_item = 0;
+      }
+      this.enabled = false;
+      setTimeout(() => this.enabled = true, animation_time * 1000);
     }
   }
 
   public previous(){
-    this.current_item--;
-    if(this.current_item < 0){
-      this.current_item = this.items.length - 1;
+    if(this.enabled){
+      this.current_item--;
+      if(this.current_item < 0){
+        this.current_item = this.items.length - 1;
+      }
+      this.enabled = false;
+      setTimeout(() => this.enabled = true, animation_time * 1000);
     }
   }
 
   public set_position(index: number){
-    this.current_item = index;
+    if(this.enabled){
+      this.current_item = index;
+    }
   }
 
   public is_current(index: number){
