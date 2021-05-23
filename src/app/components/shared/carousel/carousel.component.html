@@ -1,0 +1,14 @@
+<div>
+    <div class="carousel-container">
+        <div *ngFor="let item of items; let i = index">
+            <app-thumbnail [@view_state]="get_state(i)" [image]="item"></app-thumbnail>
+        </div>
+    </div>
+    <div class="bullets-container">
+        <fa-icon class="navigation-button" [icon]="left_icon" size="2x" (click)="previous()"></fa-icon>
+        <div *ngFor="let item of items; let i = index">
+            <div class="bullet" (click)="set_position(i)" [class.active]="is_current(i)"></div>
+        </div>
+        <fa-icon class="navigation-button" [icon]="right_icon" size="2x" (click)="next()"></fa-icon>
+    </div>
+</div>

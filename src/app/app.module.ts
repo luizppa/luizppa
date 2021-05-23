@@ -2,8 +2,9 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
 import { AppRoutingModule } from './app-routing.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+
 import { AppComponent } from './app.component';
 import { GithubWidgetComponent } from './components/shared/github-widget/github-widget.component';
 import { GithubStatComponent } from './components/shared/github-widget/github-stat/github-stat.component';
@@ -14,6 +15,7 @@ import { ThumbnailComponent } from './components/shared/thumbnail/thumbnail.comp
 import { ProjectsComponent } from './components/projects/projects.component';
 import { GithubRepoWidgetComponent } from './components/shared/github-repo-widget/github-repo-widget.component';
 import { RepoStatComponent } from './components/shared/github-repo-widget/repo-stat/repo-stat.component';
+import { CarouselComponent } from './components/shared/carousel/carousel.component';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,14 @@ import { RepoStatComponent } from './components/shared/github-repo-widget/repo-s
     ProjectsComponent,
     GithubRepoWidgetComponent,
     RepoStatComponent,
+    CarouselComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FontAwesomeModule,
+    BrowserAnimationsModule,
   ],
   providers: [HttpClientModule],
   bootstrap: [AppComponent]

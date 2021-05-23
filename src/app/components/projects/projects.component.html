@@ -1,6 +1,8 @@
-<div class="projects-background">
-    <!-- <h2>Projetos</h2> -->
-    <div *ngFor="let project of projects.slice(0,1)">
-        <app-thumbnail [image]="project.image"></app-thumbnail>
+<section class="projects-section">
+    <div class="section-title-container">
+        <p class="section-title">Projetos</p>
     </div>
-</div>
+    <div class="projects-background">
+        <app-carousel></app-carousel>
+    </div>
+</section>

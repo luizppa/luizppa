@@ -5,7 +5,7 @@ import { ProfileService } from 'src/app/services/profile.service';
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
 })
 export class ProjectsComponent implements OnInit {
   public projects: Project[] = [];

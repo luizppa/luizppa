@@ -1,13 +1,35 @@
-h2 {
-    color: white;
+.projects-section{
+    padding-top: 32px;
+    background-color: white;
 }
+
+.section-title-container{
+    width: 100%;
+    background-color: rgb(51, 51, 51);
+}
+
+.section-title {
+    color: rgb(214, 214, 214);
+    text-align: center;
+    padding: 32px;
+    font-size: 56px;
+    margin: 0;
+    font-family: archivo-black;
+}
+
+.section-title::before, .section-title::after {
+    content: " ";
+    height: 2px;
+    width: 80px;
+    display: inline-block;
+    zoom: 1;
+    background-color: rgb(214, 214, 214);
+    margin: 20px;
+    align-self: center;
+}
+
 
 .projects-background {
     background-color: rgb(51, 51, 51);
     padding: 32px;
-    margin: 64px 0;
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    min-height: 80vh;
 }
