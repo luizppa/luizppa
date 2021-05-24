@@ -1,6 +1,8 @@
 <div class="thumbnail" *ngIf="project">
     <div class="content-container">
         <app-github-repo-widget [repo_name]="project.repo.name" [user]="project.repo.owner"></app-github-repo-widget>
-        <!-- <p class="description">{{ project.description }}</p> -->
+        <div class="description">
+            <p class="description-text">{{ project.description }}</p>
+        </div>
     </div>
 </div>

@@ -1,5 +1,8 @@
-app-thumbnail {
+app-thumbnail, app-mobile-thumbnail {
     position: absolute;
+}
+
+app-thumbnail{
     top: 500%;
     left: 48px;
 }
@@ -12,18 +15,11 @@ app-thumbnail {
     height: 100%;
 }
 
-.mobile-carousel {
-    align-content: center;
-}
-
 .bullets-container {
     display: flex;
     flex: 1;
     justify-content: center;
     width: 100%;
-}
-
-.carousel_space {
     margin-top: 532px;
 }
 

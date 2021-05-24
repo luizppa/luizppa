@@ -1,4 +1,4 @@
-import { animate, keyframes, state, style, transition, trigger } from "@angular/animations";
+import { animate, keyframes, state, style, transition } from "@angular/animations";
 import { CarouselAnimationState } from "../enums/carousel-animation-state";
 
 export const scale = {

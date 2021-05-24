@@ -1,16 +1,11 @@
 import { Component, HostListener, Input, OnInit } from '@angular/core';
 import {
   trigger,
-  state,
-  style,
-  animate,
-  transition,
-  keyframes,
 } from '@angular/animations';
 import { faCaretRight, faCaretLeft } from '@fortawesome/free-solid-svg-icons';
 import { Project } from 'src/app/interfaces/project';
 import { CarouselAnimationState } from 'src/app/enums/carousel-animation-state';
-import { desktop_animation_time, desktop_carousel_animation, mobile_carousel_animation } from 'src/app/animations';
+import { desktop_animation_time, desktop_carousel_animation, mobile_animation_time, mobile_carousel_animation } from 'src/app/animations';
 
 @Component({
   selector: 'app-carousel',
@@ -60,7 +55,8 @@ export class CarouselComponent implements OnInit {
         this.current_item = 0;
       }
       this.enabled = false;
-      setTimeout(() => this.enabled = true, desktop_animation_time * 1000);
+      const animation_time = this.display_desktop() ? desktop_animation_time : mobile_animation_time;
+      setTimeout(() => this.enabled = true, animation_time * 1000);
     }
   }
 
@@ -71,7 +67,8 @@ export class CarouselComponent implements OnInit {
         this.current_item = this.items.length - 1;
       }
       this.enabled = false;
-      setTimeout(() => this.enabled = true, desktop_animation_time * 1000);
+      const animation_time = this.display_desktop() ? desktop_animation_time : mobile_animation_time;
+      setTimeout(() => this.enabled = true, animation_time * 1000);
     }
   }
 

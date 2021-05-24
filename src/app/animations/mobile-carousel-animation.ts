@@ -1,20 +1,23 @@
-import { animate, keyframes, state, style, transition, trigger } from "@angular/animations";
+import { animate, state, style, transition } from "@angular/animations";
 import { CarouselAnimationState } from "../enums/carousel-animation-state";
 
 export const mobile_animation_time = 1;
 
 const state_styles = {
     side: style({
-        transform: `translateX(100vw)`,
+        transform: `translateX(120vw)`,
+        zIndex: 0,
+        opacity: 0,
     }),
 
     out: style({
-        transform: `translateX(-100vw)`,
-        filter: 'blur(1px)',
+        transform: `translateX(-120vw)`,
+        zIndex: -1,
+        opacity: 0,
     }),
 
     main: style({
-        // ...
+        zIndex: 1,
     }),
 };
 

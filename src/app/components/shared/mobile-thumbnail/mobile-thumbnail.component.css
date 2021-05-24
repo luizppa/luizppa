@@ -1,6 +1,6 @@
 .thumbnail {
     width: 100vw;
-    height: 400px;
+    height: 532px;
     position: relative;
     overflow: hidden;
 }
@@ -13,15 +13,23 @@
     top: 0;
     left: 0;
     display: flex;
+    flex-direction: column;
 }
 
 .description {
-    color: white;
-    font-size: 22px;
-    margin: 16px;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.description-text {
+    color: var(--projects-font-color);
+    font-size: 20px;
     text-align: center;
-    max-height: 280px;
-    width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
     font-family: jost-italic;
