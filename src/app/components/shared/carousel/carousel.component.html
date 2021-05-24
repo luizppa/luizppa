@@ -1,10 +1,17 @@
 <div>
-    <div class="carousel-container">
+    <div *ngIf="display_desktop()" class="carousel-container desktop-carousel">
         <div *ngFor="let item of items; let i = index">
-            <app-thumbnail [@view_state]="get_state(i)" [project]="item"></app-thumbnail>
+            <app-thumbnail [@desktop_view_state]="get_state(i)" [project]="item"></app-thumbnail>
         </div>
     </div>
-    <div class="bullets-container">
+
+    <div *ngIf="!display_desktop()" class="carousel-container mobile-carousel">
+        <div *ngFor="let item of items; let i = index">
+            <app-mobile-thumbnail [@mobile_view_state]="get_state(i)" [project]="item"></app-mobile-thumbnail>
+        </div>
+    </div>
+
+    <div class="bullets-container" [class.carousel_space]="display_desktop()">
         <fa-icon class="navigation-button" [icon]="left_icon" size="2x" (click)="previous()"></fa-icon>
         <div *ngFor="let item of items; let i = index">
             <div class="bullet" (click)="set_position(i)" [class.active]="is_current(i)"></div>

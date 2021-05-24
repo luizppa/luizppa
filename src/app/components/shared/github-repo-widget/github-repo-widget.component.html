@@ -1,6 +1,6 @@
 
-<div class="github-repo-info">
-    <a [href]="repo?.html_url" target="_blank">
+<div class="github-repo-info" *ngIf="repo" [style.borderBottomColor]="get_lang_color(repo.language)">
+    <a [href]="repo.html_url" target="_blank">
         <p class="repo-name">
             {{ repo?.owner.login }}/<b>{{ repo?.name }}</b>
             <fa-icon id="github-icon" [icon]="github_icon" size="1x"></fa-icon>
@@ -9,9 +9,21 @@
             {{ repo?.description }}
         </p>
     </a>
+    <div class="repo-attributes">
+        <p class="repo-lang">
+            <span [style.backgroundColor]="get_lang_color(repo.language)" class="lang-icon"></span>
+            {{ repo.language }}
+        </p>
+    </div>
     <div class="stats">
-        <app-repo-stat [stat]="repo?.open_issues_count" name="Issues" [icon]="issue_icon"></app-repo-stat>
-        <app-repo-stat [stat]="repo?.stargazers_count" name="Stars" [icon]="star_icon"></app-repo-stat>
-        <app-repo-stat [stat]="repo?.forks_count" name="Forks" [icon]="fork_icon"></app-repo-stat>
+        <a class="stat" [href]="get_link('issues')" target="_blank">
+            <app-repo-stat [stat]="repo.open_issues_count" name="Issues" [icon]="issue_icon"></app-repo-stat>
+        </a>
+        <a class="stat" [href]="get_link('stargazers')" target="_blank">
+            <app-repo-stat [stat]="repo.stargazers_count" name="Stars" [icon]="star_icon"></app-repo-stat>
+        </a>
+        <a class="stat" [href]="get_link('network/members')" target="_blank">
+            <app-repo-stat [stat]="repo.forks_count" name="Forks" [icon]="fork_icon"></app-repo-stat>
+        </a>
     </div>
 </div>

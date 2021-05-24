@@ -5,6 +5,7 @@
     flex: 1;
     height: 280px;
     width: 520px;
+    border-bottom: 6px solid;
 }
 
 .repo-name {
@@ -15,22 +16,42 @@
 .repo-description {
     color: rgb(71, 71, 71);
     margin: 0 32px;
+    height: 64px;
+}
+
+.repo-lang {
+    margin: 0 32px;
+}
+
+.lang-icon {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .stats {
     display: flex;
-    margin-top: 48px;
+    margin-top: 32px;
+}
+
+.stat {
+    margin: auto;
 }
 
 #github-icon {
     float: right;
 }
 
-app-repo-stat {
-    margin: auto;
-}
-
 a {
     text-decoration: none;
     color: inherit;
+}
+
+
+
+@media (max-width: 520px) {
+    .github-repo-info {
+        width: 100vw;
+    }
 }

@@ -42,6 +42,13 @@
     padding: 32px;
 }
 
+@media (max-width: 1160px) {
+    .projects-background {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
 @media (max-width: 500px) {
     .section-title::before {
         display: none;

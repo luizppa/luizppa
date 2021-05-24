@@ -12,11 +12,18 @@ app-thumbnail {
     height: 100%;
 }
 
+.mobile-carousel {
+    align-content: center;
+}
+
 .bullets-container {
     display: flex;
     flex: 1;
     justify-content: center;
     width: 100%;
+}
+
+.carousel_space {
     margin-top: 532px;
 }
 

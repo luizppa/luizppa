@@ -4,6 +4,21 @@ import { faStar, faCodeBranch, faExclamationCircle } from '@fortawesome/free-sol
 import { GithubRepo } from 'src/app/interfaces/github-repo';
 import { GithubService } from 'src/app/services/github.service';
 
+const langs = {
+  "C++": {
+    color: "#f34b7d",
+  },
+  "Ruby": {
+    color: "#701516",
+  },
+  "JavaScript": {
+    color: "#f1e05a",
+  },
+  "TypeScript": {
+    color: "#2b7489",
+  }
+}
+
 @Component({
   selector: 'app-github-repo-widget',
   templateUrl: './github-repo-widget.component.html',
@@ -33,6 +48,14 @@ export class GithubRepoWidgetComponent implements OnInit {
       },
       () => console.log("erro")
     );
+  }
+
+  public get_link(stat: string){
+    return `${this.repo.html_url}/${stat}`;
+  }
+
+  public get_lang_color(lang: string){
+    return langs[lang].color;
   }
 
 }
