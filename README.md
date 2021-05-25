@@ -8,7 +8,7 @@
 <h3> 🤝🏻 &nbsp;Connect with Me </h3>
 
 <p align="center">
-  <a href="http://luizp.ninja"><img alt="Website" src="http://img.shields.io/badge/Website-www.adityavsingh.com-blue?style=flat-square&logo=google-chrome"></a>
-  <a href="https://www.linkedin.com/in/luiz-philippe/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Aditya%20Vikram%20Singh-blue?style=flat-square&logo=linkedin"></a>
-  <a href="mailto:luizphilippep@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-avsingh@umass.edu-blue?style=flat-square&logo=gmail"></a>
+  <a href="http://luizp.ninja"><img alt="Website" src="http://img.shields.io/badge/Website-luizp.ninja-blue?style=flat-square&logo=google-chrome"></a>
+  <a href="https://www.linkedin.com/in/luiz-philippe/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-Luiz%20Philippe-blue?style=flat-square&logo=linkedin"></a>
+  <a href="mailto:luizphilippep@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-luizphilippep@gmail.com-blue?style=flat-square&logo=gmail"></a>
 </p>
