@@ -1,18 +1,18 @@
 :root {
     /* Pastel blue  */
-    /* --projects-background-color: rgb(136 156 165);
-    --projects-font-color: rgb(255, 255, 255);
-    --projects-font-hover-color: rgb(120, 120, 120); */
+    --pastel-blue-background-color: rgb(139, 164, 175);
+    --pastel-blue-font-color: rgb(255, 255, 255);
+    --pastel-blue-font-hover-color: rgb(120, 120, 120);
 
     /* Black */
-    /* --projects-background-color: rgb(50, 50, 50);
-    --projects-font-color: rgb(200, 200, 200);
-    --projects-font-hover-color: rgb(80, 80, 80); */
+    --dark-background-color: rgb(50, 50, 50);
+    --dark-font-color: rgb(200, 200, 200);
+    --dark-font-hover-color: rgb(80, 80, 80);
 
     /* White */
-    --projects-background-color: rgb(255, 255, 255);
-    --projects-font-color: rgb(130, 130, 130);
-    --projects-font-hover-color: rgb(80, 80, 80);
+    --light-background-color: rgb(255, 255, 255);
+    --light-font-color: rgb(130, 130, 130);
+    --light-font-hover-color: rgb(80, 80, 80);
 }
 
 @font-face {

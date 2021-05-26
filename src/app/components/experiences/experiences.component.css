@@ -1,0 +1,13 @@
+.experiences-section {
+    margin-top: 32px;
+    background-color: var(--dark-background-color);
+    min-height: 80vh;
+}
+
+.experiences-container {
+    display: flex;
+    flex: 1;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}

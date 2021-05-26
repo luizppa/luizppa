@@ -1,0 +1,92 @@
+.section-title-container{
+    width: 100%;
+}
+
+.section-title-container.dark{
+    background-color: var(--dark-background-color);
+}
+
+.section-title-container.light{
+    background-color: var(--light-background-color);
+}
+
+.section-title-container.blue{
+    background-color: var(--pastel-blue-background-color);
+}
+
+.section-title {
+    text-align: center;
+    padding-top: 32px;
+    font-size: 56px;
+    margin: 0;
+    font-family: archivo-black;
+}
+
+.section-title.dark {
+    color: var(--dark-font-color);
+}
+
+.section-title.light {
+    color: var(--light-font-color);
+}
+
+.section-title.blue {
+    color: var(--pastel-blue-font-color);
+}
+
+.section-description {
+    text-align: center;
+    font-family: jost-italic;
+    margin: 0;
+    font-size: 22px;
+}
+
+.section-description.dark {
+    color: var(--dark-font-color);
+}
+
+.section-description.light {
+    color: var(--light-font-color);
+}
+
+.section-description.blue {
+    color: var(--pastel-blue-font-color);
+}
+
+.section-title::before, .section-title::after {
+    content: " ";
+    height: 2px;
+    width: 80px;
+    display: inline-block;
+    zoom: 1;
+    margin: 20px;
+    align-self: center;
+}
+
+.section-title.dark::before, .section-title.dark::after {
+    background-color: var(--dark-font-color);
+}
+
+.section-title.light::before, .section-title.light::after {
+    background-color: var(--light-font-color);
+}
+
+.section-title.blue::before, .section-title.blue::after {
+    background-color: var(--pastel-blue-font-color);
+}
+
+@media (max-width: 500px) {
+    .section-title::before {
+        display: none;
+    }
+
+    .section-title {
+        padding-bottom: 0;
+    }
+
+    .section-title::after {
+        width: 220px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

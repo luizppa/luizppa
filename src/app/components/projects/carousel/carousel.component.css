@@ -27,16 +27,16 @@ app-thumbnail{
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: var(--projects-font-color);
+    background-color: var(--light-font-color);
     margin: 16px 4px;
 }
 
 .bullet:hover, .active {
-    background-color: var(--projects-font-hover-color);
+    background-color: var(--light-font-hover-color);
 }
 
 .navigation-button {
-    color: var(--projects-font-color);
+    color: var(--light-font-color);
     margin: 0 8px;
     width: 50px;
     display: flex;
@@ -45,7 +45,7 @@ app-thumbnail{
 }
 
 .navigation-button:hover {
-    color: var(--projects-font-hover-color);
+    color: var(--light-font-hover-color);
 }
 
 .bullet, .navigation-button{

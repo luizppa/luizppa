@@ -1,0 +1,17 @@
+<div class="section-title-container"
+    [class.dark]="theme === 'DARK'"
+    [class.light]="theme === 'LIGHT'"
+    [class.blue]="theme === 'PASTEL_BLUE'">
+    <p class="section-title"
+        [class.dark]="theme === 'DARK'"
+        [class.light]="theme === 'LIGHT'"
+        [class.blue]="theme === 'PASTEL_BLUE'">
+        {{ title }}
+    </p>
+    <p class="section-description"
+        [class.dark]="theme === 'DARK'"
+        [class.light]="theme === 'LIGHT'"
+        [class.blue]="theme === 'PASTEL_BLUE'">
+        {{ description }}
+    </p>
+</div>

@@ -15,8 +15,10 @@ import { ThumbnailComponent } from './components/shared/thumbnail/thumbnail.comp
 import { ProjectsComponent } from './components/projects/projects.component';
 import { GithubRepoWidgetComponent } from './components/shared/github-repo-widget/github-repo-widget.component';
 import { RepoStatComponent } from './components/shared/github-repo-widget/repo-stat/repo-stat.component';
-import { CarouselComponent } from './components/shared/carousel/carousel.component';
+import { CarouselComponent } from './components/projects/carousel/carousel.component';
 import { MobileThumbnailComponent } from './components/shared/mobile-thumbnail/mobile-thumbnail.component';
+import { ExperiencesComponent } from './components/experiences/experiences.component';
+import { SectionTitleComponent } from './components/shared/section-title/section-title.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +34,8 @@ import { MobileThumbnailComponent } from './components/shared/mobile-thumbnail/m
     RepoStatComponent,
     CarouselComponent,
     MobileThumbnailComponent,
+    ExperiencesComponent,
+    SectionTitleComponent,
   ],
   imports: [
     BrowserModule,
