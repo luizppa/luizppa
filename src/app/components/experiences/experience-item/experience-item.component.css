@@ -1,0 +1,43 @@
+.experience-item-container {
+    display: flex;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.preiod {
+    width: calc(45% - 1px);
+    margin: 0;
+    border-right: 1px solid var(--dark-font-color);
+    color: var(--dark-font-color);
+    text-align: right;
+    padding-right: 16px;
+    padding-top: 32px;
+    font-size: 22px;
+}
+
+.dot {
+    content: " ";
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: 1px solid var(--dark-font-color);
+    position: absolute;
+    top: 6px;
+    right: -6px;
+    display: inline-block;
+}
+
+.title {
+    width: calc(55% - 1px);
+    margin: 0;
+    border-left: 1px solid var(--dark-font-color);
+    color: var(--dark-font-color);
+    padding-left: 16px;
+    padding-top: 32px;
+    font-size: 22px;
+}
+
+.description {
+    font-size: 16px;
+}

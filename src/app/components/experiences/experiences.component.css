@@ -5,9 +5,13 @@
 }
 
 .experiences-container {
-    display: flex;
-    flex: 1;
-    align-content: center;
-    justify-content: center;
     width: 100%;
+    margin-top: 32px;
+    padding: 64px;
+}
+
+@media (max-width: 500px) {
+    .experiences-container {
+        padding: 16px;
+    }
 }

@@ -19,6 +19,7 @@ import { CarouselComponent } from './components/projects/carousel/carousel.compo
 import { MobileThumbnailComponent } from './components/shared/mobile-thumbnail/mobile-thumbnail.component';
 import { ExperiencesComponent } from './components/experiences/experiences.component';
 import { SectionTitleComponent } from './components/shared/section-title/section-title.component';
+import { ExperienceItemComponent } from './components/experiences/experience-item/experience-item.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { SectionTitleComponent } from './components/shared/section-title/section
     MobileThumbnailComponent,
     ExperiencesComponent,
     SectionTitleComponent,
+    ExperienceItemComponent,
   ],
   imports: [
     BrowserModule,

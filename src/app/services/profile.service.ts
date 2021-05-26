@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Project } from '../interfaces/project';
+import { Experience } from '../interfaces/experience';
 
 @Injectable({
   providedIn: 'root'
@@ -15,9 +16,9 @@ export class ProfileService {
     });
   }
 
-  public get_experiences(callback: (skills: any) => void){
-    this.http.get('https://luizppa-com.firebaseio.com/pt/experiences.json').toPromise().then((response) => {
-      console.log(response);
+  public get_experiences(callback: (skills: Experience[]) => void){
+    this.http.get('https://luizppa-com.firebaseio.com/en/experiences.json').toPromise().then((response) => {
+      callback(response as Experience[]);
     });
   }
 

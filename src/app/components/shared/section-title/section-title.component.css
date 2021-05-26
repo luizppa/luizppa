@@ -82,11 +82,14 @@
 
     .section-title {
         padding-bottom: 0;
+        font-size: 42px;
     }
 
     .section-title::after {
-        width: 220px;
+        width: 60%;
+        margin: auto;
         margin-top: 0;
         margin-bottom: 0;
+        display: block;
     }
 }

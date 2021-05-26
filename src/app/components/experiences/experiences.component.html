@@ -1,6 +1,6 @@
 <section class="experiences-section">
-    <app-section-title title="Experiências" description="Isso é o que eu tenho feito nos últimos anos" [theme]="theme"></app-section-title>
+    <app-section-title title="Experiences" description="This is what I've been doing for the past years" [theme]="theme"></app-section-title>
     <div class="experiences-container">
-        
+        <app-experience-item *ngFor="let experience of experiences" [experience]="experience"></app-experience-item>
     </div>
 </section>
