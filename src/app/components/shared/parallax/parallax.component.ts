@@ -1,4 +1,5 @@
 import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { I18nService } from 'src/app/services/i18n.service';
 
 @Component({
   selector: 'app-parallax',
@@ -7,7 +8,7 @@ import { AfterViewInit, Component, OnInit } from '@angular/core';
 })
 export class ParallaxComponent implements OnInit {
 
-  constructor() { }
+  constructor(public i18n: I18nService) { }
 
   ngOnInit(): void {
   }

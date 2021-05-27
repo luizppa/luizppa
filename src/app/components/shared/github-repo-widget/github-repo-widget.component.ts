@@ -3,6 +3,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faStar, faCodeBranch, faExclamationCircle } from '@fortawesome/free-solid-svg-icons';
 import { GithubRepo } from 'src/app/interfaces/github-repo';
 import { GithubService } from 'src/app/services/github.service';
+import { I18nService } from 'src/app/services/i18n.service';
 
 const langs = {
   "C++": {
@@ -35,7 +36,7 @@ export class GithubRepoWidgetComponent implements OnInit {
   public fork_icon = faCodeBranch;
   public issue_icon = faExclamationCircle;
 
-  constructor(private github: GithubService) { }
+  constructor(private github: GithubService, public i18n: I18nService) { }
 
   ngOnInit(): void {
     this.get_repo();

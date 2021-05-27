@@ -6,8 +6,8 @@
 
 .experiences-container {
     width: 100%;
-    margin-top: 32px;
     padding: 64px;
+    padding-top: 32px;
 }
 
 @media (max-width: 500px) {

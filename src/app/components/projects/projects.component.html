@@ -1,5 +1,5 @@
 <section class="projects-section">
-    <app-section-title title="Projects" description="Here are a few projects I had fun working on"></app-section-title>
+    <app-section-title [title]="i18n.translate('projects.title')" [description]="i18n.translate('projects.subtitle')"></app-section-title>
     <div class="projects-background">
         <app-carousel [items]="projects"></app-carousel>
     </div>

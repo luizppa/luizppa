@@ -6,9 +6,9 @@
             <p>{{ user?.bio }}</p>
         </div>
         <div id="github-stats">
-            <app-github-stat [link]="get_tab('repositories')" [stat]="user?.public_repos" label="Repositórios"></app-github-stat>
-            <app-github-stat [link]="get_tab('following')" [stat]="user?.following" label="Seguindo"></app-github-stat>
-            <app-github-stat [link]="get_tab('followers')" [stat]="user?.followers" label="Seguidores"></app-github-stat>
+            <app-github-stat [link]="get_tab('repositories')" [stat]="user?.public_repos" [label]="i18n.translate('github.repos')"></app-github-stat>
+            <app-github-stat [link]="get_tab('following')" [stat]="user?.following" [label]="i18n.translate('github.following')"></app-github-stat>
+            <app-github-stat [link]="get_tab('followers')" [stat]="user?.followers" [label]="i18n.translate('github.followers')"></app-github-stat>
         </div>
     </div>
 </div>

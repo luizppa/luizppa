@@ -3,6 +3,7 @@ import { environment } from '../../../../environments/environment'
 
 import { GithubService } from 'src/app/services/github.service';
 import { GithubUser } from 'src/app/interfaces/github-user';
+import { I18nService } from 'src/app/services/i18n.service';
 
 @Component({
   selector: 'app-github-widget',
@@ -14,7 +15,7 @@ export class GithubWidgetComponent implements OnInit {
   public profile: string = "";
   public user: GithubUser | null = null;
 
-  constructor(private github: GithubService) { }
+  constructor(private github: GithubService, public i18n: I18nService) { }
 
   ngOnInit(): void {
     this.load_info();
