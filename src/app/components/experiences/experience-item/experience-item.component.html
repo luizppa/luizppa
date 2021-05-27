@@ -2,12 +2,15 @@
     <div class="preiod">
         <p>
             {{ experience.period }}
-            <span class="dot"></span>
         </p>
+        <div class="dot"></div>
     </div>
     <div class="title">
-        <p>
-            {{ experience.title }} - {{ experience.company }}
+        <p class="role">
+            {{ experience.title }}
+        </p>
+        <p class="company">
+            {{ experience.company }}
         </p>
         <p class="description">
             {{ experience.description }}

@@ -14,6 +14,7 @@
     padding-right: 16px;
     padding-top: 32px;
     font-size: 22px;
+    position: relative;
 }
 
 .dot {
@@ -21,10 +22,10 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: 1px solid var(--dark-font-color);
+    background-color: var(--dark-font-color);
     position: absolute;
-    top: 6px;
-    right: -6px;
+    top: 43px;
+    right: -7px;
     display: inline-block;
 }
 
@@ -36,6 +37,14 @@
     padding-left: 16px;
     padding-top: 32px;
     font-size: 22px;
+}
+
+.role {
+    margin-bottom: 0px;
+}
+
+.company {
+    margin-top: 0px;
 }
 
 .description {
