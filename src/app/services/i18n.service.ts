@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import i18next, { TFunction } from 'i18next';
 import { environment } from 'src/environments/environment';
-import { pt, en } from '../i18n';
+import * as resources from '../i18n';
 
 @Injectable({
   providedIn: 'root'
@@ -19,18 +19,25 @@ export class I18nService {
       lng: this.lang,
       fallbackLng: 'en',
       debug: !environment.production,
-      resources: {
-        en,
-        pt,
-      }
+      resources,
     }, (_err, t) => {
       this.translator = t;
     });
   }
 
+  private validate_lang(lang: string){
+    const valid_langs = Object.keys(resources);
+    if(valid_langs.includes(lang)) {
+      return lang;
+    }
+    else {
+      return 'en';
+    }
+  }
+
   public switch_language(lang: string) {
-    this.lang = lang;
-    i18next.changeLanguage(lang, (_err, t) => {
+    this.lang = this.validate_lang(lang);
+    i18next.changeLanguage(this.lang, (_err, t) => {
       this.translator = t;
     })
   }
