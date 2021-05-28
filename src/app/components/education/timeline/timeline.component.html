@@ -1,0 +1,12 @@
+<div class="timeline-container">
+    <span class="timeline-bar"></span>
+    <div *ngFor="let mark of marks">
+        <div class="mark" [style]="get_mark_position(mark)">
+            <div class="mark-details">
+                <p class="mark-title">{{ mark.title }}</p>
+                <p class="mark-description">{{ mark.description }}</p>
+            </div>
+            <spa class="mark-icon"></spa>
+        </div>
+    </div>
+</div>

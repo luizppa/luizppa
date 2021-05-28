@@ -1,4 +1,4 @@
-.experience-item-container {
+.education-item-container {
     display: flex;
     width: 100%;
     align-content: center;
@@ -8,13 +8,11 @@
 .preiod {
     width: calc(45% - 1px);
     margin: 0;
-    border-right: 1px solid var(--dark-font-color);
-    color: var(--dark-font-color);
-    text-align: right;
-    padding-right: 16px;
+    border-left: 1px solid var(--light-font-color);
+    color: var(--light-font-color);
+    padding-left: 16px;
     padding-top: 32px;
     font-size: 22px;
-    position: relative;
 }
 
 .dot {
@@ -22,8 +20,8 @@
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    border: 2px solid var(--dark-background-color);
-    background-color: var(--dark-font-color);
+    border: 2px solid var(--light-background-color);
+    background-color: var(--light-font-color);
     position: absolute;
     top: 43px;
     right: -7px;
@@ -31,24 +29,27 @@
 }
 
 .details {
+    text-align: right;
     width: calc(55% - 1px);
     margin: 0;
-    border-left: 1px solid var(--dark-font-color);
-    color: var(--dark-font-color);
-    padding-left: 16px;
+    border-right: 1px solid var(--light-font-color);
+    color: var(--light-font-color);
+    padding-right: 16px;
     padding-top: 32px;
     font-size: 22px;
+    position: relative;
 }
 
 .role {
     margin-bottom: 0px;
 }
 
-.company {
+.institution {
     margin-top: 0px;
 }
 
 .description {
+    float: right;
     font-size: 16px;
     max-width: 600px;
 }

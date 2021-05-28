@@ -1,0 +1,19 @@
+<div class="education-item-container" *ngIf="education_item">
+    <div class="details">
+        <p class="role">
+            {{ education_item.title }}
+        </p>
+        <p class="institution">
+            {{ education_item.institution }}
+        </p>
+        <p class="description">
+            {{ education_item.description }}
+        </p>
+        <div class="dot"></div>
+    </div>
+    <div class="preiod">
+        <p>
+            {{ education_item.period }}
+        </p>
+    </div>
+</div>

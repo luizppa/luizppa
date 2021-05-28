@@ -17,5 +17,9 @@ export const pt = {
             title: 'Experiências',
             subtitle: 'Isso é o que eu tenho feito nos último anos',
         },
+        education: {
+            title: 'Educação',
+            subtitle: 'E esses foram os lugares onde aprendi as bases do que sei',
+        },
     }
 }

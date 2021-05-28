@@ -1,0 +1,49 @@
+.timeline-container {
+    position: relative;
+    min-height: calc(80vh + 64px);
+}
+
+.timeline-bar {
+    height: 80vh;
+    width: 2px;
+    border-radius: 32px;
+    background: var(--light-font-color);
+    content: " ";
+    position: absolute;
+    top: 32px;
+    right: 45%;
+}
+
+.mark {
+    display: flex;
+    position: absolute;
+    margin-top: 32px;
+    right: calc(45% - 5px);
+    padding: 0;
+    background-color: transparent;
+}
+
+.mark-icon {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: var(--light-font-hover-color);
+    border: 2px solid white;
+    content: " ";
+}
+
+.mark-details {
+    margin-right: 16px;
+    border-radius: 4px;
+    border: 1px solid #e1e4e8;
+    padding: 16px;
+    max-width: 600px;
+}
+
+.mark-title {
+    font-size: 22px;
+}
+
+.mark-description {
+    font-size: 18px;
+}

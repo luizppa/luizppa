@@ -1,0 +1,7 @@
+<section class="education-section">
+    <app-section-title [title]="i18n.translate('education.title')" [description]="i18n.translate('education.subtitle')" [theme]="theme"></app-section-title>
+    <!-- <app-timeline [marks]="marks"></app-timeline> -->
+    <div class="education-container">
+        <app-education-item *ngFor="let education_item of education" [education_item]="education_item"></app-education-item>
+    </div>
+</section>

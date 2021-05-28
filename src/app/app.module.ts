@@ -20,6 +20,9 @@ import { MobileThumbnailComponent } from './components/shared/mobile-thumbnail/m
 import { ExperiencesComponent } from './components/experiences/experiences.component';
 import { SectionTitleComponent } from './components/shared/section-title/section-title.component';
 import { ExperienceItemComponent } from './components/experiences/experience-item/experience-item.component';
+import { EducationComponent } from './components/education/education.component';
+import { TimelineComponent } from './components/education/timeline/timeline.component';
+import { EducationItemComponent } from './components/education/education-item/education-item.component';
 
 @NgModule({
   declarations: [
@@ -38,6 +41,9 @@ import { ExperienceItemComponent } from './components/experiences/experience-ite
     ExperiencesComponent,
     SectionTitleComponent,
     ExperienceItemComponent,
+    EducationComponent,
+    TimelineComponent,
+    EducationItemComponent,
   ],
   imports: [
     BrowserModule,

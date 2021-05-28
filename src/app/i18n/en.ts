@@ -17,5 +17,9 @@ export const en = {
             title: 'Experiences',
             subtitle: 'This is what I\'ve been doing for the past years',
         },
+        education: {
+            title: 'Education',
+            subtitle: 'And this is where I learned the basis of what I know',
+        },
     }
 }
