@@ -40,12 +40,19 @@
     position: relative;
 }
 
+.header-texts {
+    display: inline-block;
+}
+
 .role {
     margin-bottom: 0px;
+    border-bottom: 2px solid var(--light-font-color);
+    width: 100%;
 }
 
 .institution {
     margin-top: 0px;
+    width: 100%;
 }
 
 .description {

@@ -21,5 +21,11 @@ export const en = {
             title: 'Education',
             subtitle: 'And this is where I learned the basis of what I know',
         },
+        footer: {
+            contact_title: 'If you read this far, you may wish to get in contact',
+            disclaimer: 'Disclaimer: I\'m not a real ninja',
+            disclaimer_far: '...or am I?',
+            footer_bottom: 'made with ♥ and JS',
+        },
     }
 }

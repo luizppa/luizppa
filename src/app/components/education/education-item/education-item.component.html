@@ -1,11 +1,14 @@
 <div class="education-item-container" *ngIf="education_item">
     <div class="details">
-        <p class="role">
-            {{ education_item.title }}
-        </p>
-        <p class="institution">
-            {{ education_item.institution }}
-        </p>
+        <div class="header-texts">
+            <p class="role">
+                {{ education_item.title }}
+            </p>
+            <p class="institution">
+                {{ education_item.institution }}
+            </p>
+        </div>
+        <br>
         <p class="description">
             {{ education_item.description }}
         </p>

@@ -21,5 +21,11 @@ export const pt = {
             title: 'Educação',
             subtitle: 'E esses foram os lugares onde aprendi as bases do que sei',
         },
+        footer: {
+            contact_title: 'Se você leu até aqui, talvez queira entrar em contato',
+            disclaimer: 'Atenção: não sou um ninja de verdade',
+            disclaimer_far: '...ou será que sou?',
+            footer_bottom: 'feito com ♥ e JS',
+        },
     }
 }

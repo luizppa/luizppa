@@ -23,6 +23,7 @@ import { ExperienceItemComponent } from './components/experiences/experience-ite
 import { EducationComponent } from './components/education/education.component';
 import { TimelineComponent } from './components/education/timeline/timeline.component';
 import { EducationItemComponent } from './components/education/education-item/education-item.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { EducationItemComponent } from './components/education/education-item/ed
     EducationComponent,
     TimelineComponent,
     EducationItemComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

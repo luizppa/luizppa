@@ -40,12 +40,19 @@
     font-size: 22px;
 }
 
+.header-texts {
+    display: inline-block;
+}
+
 .role {
     margin-bottom: 0px;
+    border-bottom: 2px solid var(--dark-font-color);
+    width: 100%;
 }
 
 .company {
     margin-top: 0px;
+    width: 100%;
 }
 
 .description {
