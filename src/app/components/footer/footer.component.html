@@ -2,16 +2,20 @@
     <div class="footer-container">
         <p class="contact-header">{{ i18n.translate('footer.contact_title') }}</p>
         <p class="contact-item email">
-            <fa-icon [icon]="email_icon" size="1x"></fa-icon>
+            <fa-icon class="contact-icon" [icon]="email_icon" size="1x"></fa-icon>
             <a href="mailto:luizphilippep@gmail.com" target="_blank"> luizphilippep@gmail.com</a>
         </p>
-        <p class="contact-item linkedin">
-            <fa-icon [icon]="linkedin_icon" size="1x"></fa-icon>
-            <a href="https://www.linkedin.com/in/luiz-philippe/" target="_blank"> linkedin.com/in/luiz-philippe</a>
-        </p>
         <p class="contact-item github">
-            <fa-icon [icon]="github_icon" size="1x"></fa-icon>
+            <fa-icon class="contact-icon" [icon]="github_icon" size="1x"></fa-icon>
             <a href="https://github.com/luizppa" target="_blank"> github.com/luizppa</a>
+        </p>
+        <p class="contact-item stack-overflow">
+            <fa-icon class="contact-icon" [icon]="stack_overflow_icon" size="1x"></fa-icon>
+            <a href="https://stackoverflow.com/users/story/9660952" target="_blank"> stackoverflow.com/users/story/9660952</a>
+        </p>
+        <p class="contact-item linkedin">
+            <fa-icon class="contact-icon" [icon]="linkedin_icon" size="1x"></fa-icon>
+            <a href="https://www.linkedin.com/in/luiz-philippe/" target="_blank"> linkedin.com/in/luiz-philippe</a>
         </p>
     </div>
     <p class="footer-text">

@@ -13,6 +13,7 @@ a {
     justify-content: center;
     color: var(--dark-font-color);
     position: relative;
+    font-family: jost-italic;
 }
 
 .footer-container {
@@ -22,10 +23,18 @@ a {
 
 .contact-header {
     font-size: 46px;
+    border-bottom: 1px solid var(--dark-font-color);
 }
 
 .contact-item {
     font-size: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.contact-icon {
+    margin-right: 16px;
 }
 
 .footer-text {

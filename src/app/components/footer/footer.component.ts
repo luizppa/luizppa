@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faStackOverflow } from '@fortawesome/free-brands-svg-icons';
 import { I18nService } from 'src/app/services/i18n.service';
 
 @Component({
@@ -12,6 +12,7 @@ export class FooterComponent implements OnInit {
   public email_icon = faEnvelope;
   public linkedin_icon = faLinkedin;
   public github_icon = faGithub;
+  public stack_overflow_icon = faStackOverflow;
 
   constructor(public i18n: I18nService) { }
 
