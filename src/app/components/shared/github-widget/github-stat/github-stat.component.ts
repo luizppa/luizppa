@@ -7,11 +7,11 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class GithubStatComponent implements OnInit {
   @Input()
-  stat: number | undefined = 0;
+  stat: number = 0;
   @Input()
-  label: string | undefined = "";
+  label: string = "";
   @Input()
-  link: string | undefined = "";
+  link: string = "";
 
   constructor() { }
 

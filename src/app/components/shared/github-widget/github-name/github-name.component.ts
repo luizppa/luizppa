@@ -8,11 +8,11 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
 })
 export class GithubNameComponent implements OnInit {
   @Input()
-  public profile_url: string | undefined = "";
+  public profile_url: string = "";
   @Input()
-  public name: string | undefined = "";
+  public name: string = "";
   @Input()
-  public login: string | undefined = "";
+  public login: string = "";
   public github_icon = faGithub;
 
   constructor() { }

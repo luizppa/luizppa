@@ -1,14 +1,14 @@
-<div id="github-widget">
-    <img id="github-avatar" [src]="user?.avatar_url"/>
+<div id="github-widget" *ngIf="!!user">
+    <img id="github-avatar" [src]="user.avatar_url"/>
     <div id="github-info">
-        <app-github-name [profile_url]="user?.html_url" [name]="user?.name" [login]="user?.login"></app-github-name>
+        <app-github-name [profile_url]="user.html_url" [name]="user.name" [login]="user.login"></app-github-name>
         <div id="github-bio">
-            <p>{{ user?.bio }}</p>
+            <p>{{ user.bio }}</p>
         </div>
         <div id="github-stats">
-            <app-github-stat [link]="get_tab('repositories')" [stat]="user?.public_repos" [label]="i18n.translate('github.repos')"></app-github-stat>
-            <app-github-stat [link]="get_tab('following')" [stat]="user?.following" [label]="i18n.translate('github.following')"></app-github-stat>
-            <app-github-stat [link]="get_tab('followers')" [stat]="user?.followers" [label]="i18n.translate('github.followers')"></app-github-stat>
+            <app-github-stat [link]="get_tab('repositories')" [stat]="user.public_repos" [label]="i18n.translate('github.repos')"></app-github-stat>
+            <app-github-stat [link]="get_tab('following')" [stat]="user.following" [label]="i18n.translate('github.following')"></app-github-stat>
+            <app-github-stat [link]="get_tab('followers')" [stat]="user.followers" [label]="i18n.translate('github.followers')"></app-github-stat>
         </div>
     </div>
 </div>

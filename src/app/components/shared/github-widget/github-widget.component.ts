@@ -13,7 +13,7 @@ import { I18nService } from 'src/app/services/i18n.service';
 export class GithubWidgetComponent implements OnInit {
   @Input()
   public profile: string = "";
-  public user: GithubUser | null = null;
+  public user: GithubUser = null;
 
   constructor(private github: GithubService, public i18n: I18nService) { }
 
