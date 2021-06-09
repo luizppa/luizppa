@@ -11,3 +11,11 @@
     width: 100%;
     height: 380px;
 }
+
+@media (max-width: 432px){
+    
+    .playlist-container{
+        min-width: none;
+    }
+
+}
