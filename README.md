@@ -19,7 +19,7 @@
 <img align="left" alt="Sass" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
 <img align="left" alt="Git" width="30px" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" /> -->
 
-<br/>
+<!-- <br/> -->
 <br/>
 
 ### Connect with me:
@@ -28,16 +28,16 @@
 [<img align="left" alt="Spotify" width="30px" src="./src/assets/svg/spotify.svg" />][spotify]
 [<img align="left" alt="Steam" width="30px" src="./src/assets/svg/steam.svg" />][steam]
 
-<br/>
+<!-- <br/> -->
 <br/>
 
 [linkedin]: https://www.linkedin.com/in/luiz-philippe/
 [spotify]: https://open.spotify.com/user/22qir7j5ryjot2deyb2t2hdwi?si=51edc108dd494c7e
 [steam]: https://steamcommunity.com/id/inciptvitaloka/
 
-<br/>
+<!-- <br/>
 
 <p align="center">
   <a href="http://luizp.ninja"><img alt="Website" src="http://img.shields.io/badge/Website-luizp.ninja-whitesmoke?style=flat-square&logo=google-chrome"></a>
   <a href="mailto:luizphilippep@gmail.com"><img alt="Email" src="https://img.shields.io/badge/Email-luizphilippep@gmail.com-whitesmoke?style=flat-square&logo=gmail"></a>
-</p>
+</p> -->
