@@ -1,9 +1,9 @@
-<div>
+<div style="justify-content: center;">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=luizppa&theme=vue&show_icons=true&hide_border=true" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizppa&theme=vue&layout=compact&hide_border=true" />
 </div>
 
-<br />
+<!-- <br/>
 
 ### Languages and Tools:
 
@@ -17,9 +17,10 @@
 <img align="left" alt="HTML5" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png" />
 <img align="left" alt="CSS3" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" />
 <img align="left" alt="Sass" width="30px" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/sass/sass.png" />
-<img align="left" alt="Git" width="30px" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" />
+<img align="left" alt="Git" width="30px" src="https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png" /> -->
 
-<br />
+<br/>
+<br/>
 
 ### Connect with me:
 
@@ -27,8 +28,8 @@
 [<img align="left" alt="Spotify" width="30px" src="./src/assets/svg/spotify.svg" />][spotify]
 [<img align="left" alt="Steam" width="30px" src="./src/assets/svg/steam.svg" />][steam]
 
-<br />
-<br />
+<br/>
+<br/>
 
 [linkedin]: https://www.linkedin.com/in/luiz-philippe/
 [spotify]: https://open.spotify.com/user/22qir7j5ryjot2deyb2t2hdwi?si=51edc108dd494c7e
