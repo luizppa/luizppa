@@ -15,7 +15,8 @@
 @media (max-width: 432px){
     
     .playlist-container{
-        min-width: none;
+        min-width: unset;
+        max-width: 100%;
     }
 
 }
