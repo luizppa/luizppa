@@ -24,6 +24,8 @@ import { EducationComponent } from './components/education/education.component';
 import { TimelineComponent } from './components/education/timeline/timeline.component';
 import { EducationItemComponent } from './components/education/education-item/education-item.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { AboutComponent } from './components/about/about.component';
+import { SpotifyPlaylistComponent } from './components/shared/spotify-playlist/spotify-playlist.component';
 
 @NgModule({
   declarations: [
@@ -46,6 +48,8 @@ import { FooterComponent } from './components/footer/footer.component';
     TimelineComponent,
     EducationItemComponent,
     FooterComponent,
+    AboutComponent,
+    SpotifyPlaylistComponent,
   ],
   imports: [
     BrowserModule,

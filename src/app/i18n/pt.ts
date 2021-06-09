@@ -9,6 +9,13 @@ export const pt = {
             stars: 'Estrelas',
             forks: 'Forks',
         },
+        spotify: {
+            playlist_header: 'Minha recomendação pra você'
+        },
+        about: {
+            title: 'Sobre mim',
+            subtitle: 'Aqui estão algumas coisas que eu gosto',
+        },
         projects: {
             title: 'Projetos',
             subtitle: 'Esses são alguns projetos dos quais gostei de participar',

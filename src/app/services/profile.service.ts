@@ -5,6 +5,7 @@ import { Experience } from '../interfaces/experience';
 import { I18nService } from './i18n.service';
 import { environment } from 'src/environments/environment';
 import { EducationItem } from '../interfaces/education';
+import { Profile } from '../interfaces/profile';
 
 @Injectable({
   providedIn: 'root'
@@ -29,15 +30,15 @@ export class ProfileService {
     });
   }
 
-  public get_skills(callback: (skills: any) => void){
-    this.http.get(`${this.get_endpoint()}/skills.json`).toPromise().then((response) => {
-      callback(response);
-    });
-  }
-
   public get_projects(callback: (projects: Project[]) => void){
     this.http.get(`${this.get_endpoint()}/projects.json`).toPromise().then((response) => {
       callback(response as Project[]);
+    });
+  }
+
+  public get_profile(callback: (profile: Profile) => void){
+    this.http.get(`${this.get_endpoint()}/profile.json`).toPromise().then((response) => {
+      callback(response as Profile);
     });
   }
 }
