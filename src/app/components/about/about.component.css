@@ -15,7 +15,9 @@
     /* font-family: jost-italic; */
     font-size: 22px;
     text-align: center;
+    margin: auto;
     margin-bottom: 64px;
+    max-width: 1200px;
 }
 
 .spotify-container {

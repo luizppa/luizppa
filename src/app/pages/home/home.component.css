@@ -15,9 +15,8 @@
 
 #medias {
     margin-top: 192px;
-    padding: 0 16px;
+    padding: 0 16px 32px 16px;
     width: 100%;
-    min-height: 60vh;
     background-color: white;
     display: flex;
     justify-content: center;
