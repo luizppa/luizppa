@@ -19,8 +19,8 @@
     width: 100%;
     background-color: white;
     display: flex;
-    /* justify-content: center; */
-    padding-left: 100px;
+    justify-content: center;
+    /* padding-left: 100px; */
 }
 
 app-github-widget {
