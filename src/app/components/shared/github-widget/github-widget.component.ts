@@ -4,6 +4,7 @@ import { environment } from '../../../../environments/environment'
 import { GithubService } from 'src/app/services/github.service';
 import { GithubUser } from 'src/app/interfaces/github-user';
 import { I18nService } from 'src/app/services/i18n.service';
+import { GithubBoardOptions } from 'ng-github-contributions';
 
 @Component({
   selector: 'app-github-widget',
@@ -14,6 +15,10 @@ export class GithubWidgetComponent implements OnInit {
   @Input()
   public profile: string = "";
   public user: GithubUser = null;
+
+  public githubBoardOptions: GithubBoardOptions = {
+    cellSize: 15,
+  }
 
   constructor(private github: GithubService, public i18n: I18nService) { }
 

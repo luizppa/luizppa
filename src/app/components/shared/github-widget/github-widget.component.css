@@ -35,7 +35,12 @@
 
 #github-contributions {
     margin-top: 16px;
-    width: 100%;
+}
+
+.board-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 app-github-stat{
