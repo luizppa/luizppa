@@ -16,7 +16,7 @@ export class SpotifyPlaylistComponent implements OnInit {
   ngOnInit(): void {
   }
   
-  public url(): SafeResourceUrl {
+  get url(): SafeResourceUrl {
     return this.sanitizer.bypassSecurityTrustResourceUrl(this.playlist_url);
   }
 

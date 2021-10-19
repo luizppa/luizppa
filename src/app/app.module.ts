@@ -26,7 +26,7 @@ import { EducationItemComponent } from './components/education/education-item/ed
 import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { SpotifyPlaylistComponent } from './components/shared/spotify-playlist/spotify-playlist.component';
-import { GithubContributionsModule } from "ng-github-contributions";
+import { GithubContributionsModule } from "@luizppa/ng-github-contributions";
 
 @NgModule({
   declarations: [

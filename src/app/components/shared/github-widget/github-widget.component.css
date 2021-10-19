@@ -56,16 +56,18 @@ app-github-stat{
 
     #github-info {
         margin: 0;
+        margin-left: 12px;
         margin-top: 16px;
         display: block;
     }
 
     #github-avatar {
         margin: auto;
-    }
+    }   
+}
 
+@media (max-width: 320px) {
     #github-contributions {
         display: none;
-    }
-    
+    } 
 }

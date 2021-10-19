@@ -11,6 +11,9 @@
 .repo-name {
     font-size: 22px;
     margin: 32px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .repo-description {

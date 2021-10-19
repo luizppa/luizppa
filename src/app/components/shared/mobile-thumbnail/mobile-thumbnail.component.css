@@ -34,3 +34,7 @@
     text-overflow: ellipsis;
     font-family: jost-italic;
 }
+
+app-github-repo-widget{
+    margin: auto;
+}
