@@ -11,7 +11,6 @@
   <li>📦 Take a look at <a href="https://ghcontributions.luizp.ninja/">my Angular 2+ library</a></li>
   <li>🎵 Check out <a href="https://open.spotify.com/playlist/2evEn9NLwY7vCsFVdcVd7f?go=1&sp_cid=6fe9f8b54f0d2285041d31af594ed9d6">my playlist suggestion</a></li>
 </div>
-<br/>
 <div>
   <h1 align="center">Connect with me</h1>
   <div align="center" style="display: flex; justify-content: center;">
