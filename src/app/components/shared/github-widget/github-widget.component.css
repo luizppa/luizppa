@@ -66,6 +66,12 @@ app-github-stat{
     }   
 }
 
+@media (max-width: 588px) {
+    #github-info {
+        margin-left: 0px;
+    }
+}
+
 @media (max-width: 320px) {
     #github-contributions {
         display: none;
