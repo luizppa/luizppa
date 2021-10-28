@@ -4,7 +4,7 @@
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=luizppa&theme=vue&show_icons=true&hide_border=true" />
 </div>
 <div>
-  <h2>What I have been doing:</h2>
+  <h2>What I have been doing</h2>
   <li>💻 Software engineer at <a href="https://escolaemmovimento.com.br/">Escola em Movimento</a></li>
   <li>🎓 Computer science student at <a href="https://ufmg.br/">UFMG</a></li>
   <li>🎮 Game development enthusiast</li>
