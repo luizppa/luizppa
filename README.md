@@ -1,4 +1,4 @@
-<img width="100%" src="./src/assets/images/github-banner.png"/>
+<a href="https://luizp.ninja"><img width="100%" src="./src/assets/images/github-banner.png"/></a>
 <div align="center">
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizppa&theme=vue&layout=compact&hide_border=true" />
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=luizppa&theme=vue&show_icons=true&hide_border=true" />
@@ -14,8 +14,14 @@
 <div>
   <h1 align="center">Connect with me</h1>
   <div align="center" style="display: flex; justify-content: center;">
-    <img alt="Linkedin" style="padding: 8px;" width="30px" src="./src/assets/svg/linkedin.svg" />
-    <img alt="Spotify" style="padding: 8px;" width="30px" src="./src/assets/svg/spotify.svg" />
-    <img alt="Steam" style="padding: 8px;" width="30px" src="./src/assets/svg/steam.svg" />
+    <a href="https://www.linkedin.com/in/luiz-philippe/">
+      <img alt="Linkedin" style="padding: 8px;" width="30px" src="./src/assets/svg/linkedin.svg" />
+    </a>
+    <a href="https://open.spotify.com/user/22qir7j5ryjot2deyb2t2hdwi?si=ea39465877944b3f">
+      <img alt="Spotify" style="padding: 8px;" width="30px" src="./src/assets/svg/spotify.svg" />
+    </a>
+    <a href="https://steamcommunity.com/id/inciptvitaloka">
+      <img alt="Steam" style="padding: 8px;" width="30px" src="./src/assets/svg/steam.svg" />
+    </a>
   </div>
 </div>
