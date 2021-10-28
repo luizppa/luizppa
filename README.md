@@ -1,7 +1,7 @@
 <img width="100%" src="./src/assets/images/github-banner.png"/>
 <div align="center">
-  <img width="45%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizppa&theme=vue&layout=compact&hide_border=true" />
-  <img width="45%" src="https://github-readme-stats.vercel.app/api?username=luizppa&theme=vue&show_icons=true&hide_border=true" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizppa&theme=vue&layout=compact&hide_border=true" />
+  <img height="150em" src="https://github-readme-stats.vercel.app/api?username=luizppa&theme=vue&show_icons=true&hide_border=true" />
 </div>
 <div>
   <h2>What I have been doing:</h2>
