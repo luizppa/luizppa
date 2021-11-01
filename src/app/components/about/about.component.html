@@ -2,13 +2,13 @@
     <app-section-title [title]="i18n.translate('about.title')" [description]="i18n.translate('about.subtitle')" [theme]="theme"></app-section-title>
     <div class="about-container" *ngIf="!!profile">
         <p class="about-text">{{ profile.text }}</p>
-        <div class="spotify-container">
+        <!-- <div class="spotify-container">
             <p class="playlist-title mobile">{{ profile.playlist.title }}</p>
             <app-spotify-playlist [playlist_url]="profile.playlist.link"></app-spotify-playlist>
             <div class="playlist-text-container">
                 <p class="playlist-title desktop">{{ profile.playlist.title }}</p>
                 <p class="playlist-description">{{ profile.playlist.description }}</p>
             </div>
-        </div>
+        </div> -->
     </div>
 </section>

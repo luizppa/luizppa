@@ -1,7 +1,7 @@
 .about-section {
     padding-top: 32px;
     background-color: var(--dark-background-color);
-    min-height: 80vh;
+    min-height: 60vh;
 }
 
 .about-container {
