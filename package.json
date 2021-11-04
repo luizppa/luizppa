@@ -30,7 +30,7 @@
     "jquery": "^3.6.0",
     "locomotive-scroll": "^4.1.1",
     "ng-bootstrap": "^1.6.3",
-    "@luizppa/ng-github-contributions": "0.1.1",
+    "@luizppa/ng-github-contributions": "0.2.1",
     "rxjs": "~6.6.0",
     "scrollfire": "^1.2.0",
     "tslib": "^2.0.0",
