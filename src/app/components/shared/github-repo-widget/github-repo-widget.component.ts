@@ -17,6 +17,9 @@ const langs = {
   },
   "TypeScript": {
     color: "#2b7489",
+  },
+  "C#": {
+    color: "#2da44e",
   }
 }
 
@@ -56,7 +59,7 @@ export class GithubRepoWidgetComponent implements OnInit {
   }
 
   public get_lang_color(lang: string){
-    return langs[lang].color;
+    return langs[lang]?.color || "#f34b7d";
   }
 
 }
