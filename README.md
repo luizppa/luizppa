@@ -9,7 +9,7 @@
   <li>🎓 Computer science student at <a href="https://ufmg.br/">UFMG</a></li>
   <li>🎮 Game development enthusiast</li>
   <li>📦 Take a look at <a href="https://ghcontributions.luizp.ninja/">my Angular 2+ library</a></li>
-  <li>🎵 Check out <a href="https://open.spotify.com/playlist/2evEn9NLwY7vCsFVdcVd7f?go=1&sp_cid=6fe9f8b54f0d2285041d31af594ed9d6">my playlist suggestion</a></li>
+  <li>🎥 Check out <a href="https://www.youtube.com/channel/UCpH5NoEmEh-y03OhwGSTTiQ">my YouTube channel</a></li>
 </div>
 <div>
   <h1 align="center">Connect with me</h1>
