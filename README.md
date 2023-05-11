@@ -1,4 +1,4 @@
-<a href="https://luizp.ninja"><img width="100%" src="./src/assets/images/github-banner.png"/></a>
+<a href="https://luiz.ninja"><img width="100%" src="./src/assets/images/github-banner.png"/></a>
 <!-- <div align="center">
   <img height="150em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizppa&theme=vue&layout=compact&hide_border=true" />
   <img height="150em" src="https://github-readme-stats.vercel.app/api?username=luizppa&theme=vue&show_icons=true&hide_border=true" />
