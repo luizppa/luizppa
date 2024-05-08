@@ -13,15 +13,17 @@
 </div>
 <div>
   <h1 align="center">Connect with me</h1>
-  <div align="center" style="display: flex; justify-content: center;">
-    <a href="https://www.linkedin.com/in/luiz-philippe/">
-      <img alt="Linkedin" style="padding: 8px;" width="30px" src="./src/assets/svg/linkedin.svg" />
-    </a>
-    <a href="https://open.spotify.com/user/22qir7j5ryjot2deyb2t2hdwi?si=ea39465877944b3f">
-      <img alt="Spotify" style="padding: 8px;" width="30px" src="./src/assets/svg/spotify.svg" />
-    </a>
-    <a href="https://steamcommunity.com/id/inciptvitaloka">
-      <img alt="Steam" style="padding: 8px;" width="30px" src="./src/assets/svg/steam.svg" />
-    </a>
+  <div align="center">
+    <span href="https://www.linkedin.com/in/luiz-philippe/">
+      <img alt="Linkedin" width="30px" src="./src/assets/svg/linkedin.svg" />
+    </span>
+    &nbsp;&nbsp;&nbsp;
+    <span href="https://open.spotify.com/user/22qir7j5ryjot2deyb2t2hdwi?si=ea39465877944b3f">
+      <img alt="Spotify" width="30px" src="./src/assets/svg/spotify.svg" />
+    </span>
+    &nbsp;&nbsp;&nbsp;
+    <span href="https://steamcommunity.com/id/inciptvitaloka">
+      <img alt="Steam" width="30px" src="./src/assets/svg/steam.svg" />
+    </span>
   </div>
 </div>
