@@ -24,7 +24,7 @@
 .background::after {
     background-size: cover;
     background-position-x: center;
-    background-image: url('../../../../assets/images/parallax-background.jpg');
+    background-image: url('../../../../assets/images/pilatus.jpg');
 }
 
 p {
