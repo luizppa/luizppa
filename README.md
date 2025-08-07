@@ -14,16 +14,16 @@
 <div>
   <h1 align="center">Connect with me</h1>
   <div align="center">
-    <span href="https://www.linkedin.com/in/luiz-philippe/">
+    <a href="https://www.linkedin.com/in/luiz-philippe/">
       <img alt="Linkedin" width="30px" src="./src/assets/svg/linkedin.svg" />
-    </span>
+    </a>
     &nbsp;&nbsp;&nbsp;
-    <span href="https://open.spotify.com/user/22qir7j5ryjot2deyb2t2hdwi?si=ea39465877944b3f">
+    <a href="https://open.spotify.com/user/22qir7j5ryjot2deyb2t2hdwi?si=ea39465877944b3f">
       <img alt="Spotify" width="30px" src="./src/assets/svg/spotify.svg" />
-    </span>
+    </a>
     &nbsp;&nbsp;&nbsp;
-    <span href="https://steamcommunity.com/id/inciptvitaloka">
+    <a href="https://steamcommunity.com/id/inciptvitaloka">
       <img alt="Steam" width="30px" src="./src/assets/svg/steam.svg" />
-    </span>
+    </a>
   </div>
 </div>
