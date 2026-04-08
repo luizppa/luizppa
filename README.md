@@ -6,7 +6,7 @@
 <div>
   <h2>What I have been doing</h2>
   <li>💻 Software engineer at <a href="https://github.com/PathPointLabs">PathPoint Labs</a></li>
-  <li>🎓 Computer science student at <a href="https://ufmg.br/">UFMG</a></li>
+  <li>🎓 BCS from <a href="https://ufmg.br/">UFMG</a></li>
   <li>🎮 Game development enthusiast</li>
   <li>📦 Take a look at <a href="https://ghcontributions.luizp.ninja/">my Angular 2+ library</a></li>
   <li>🎥 Check out <a href="https://www.youtube.com/channel/UCpH5NoEmEh-y03OhwGSTTiQ">my YouTube channel</a></li>
