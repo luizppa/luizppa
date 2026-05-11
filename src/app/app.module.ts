@@ -27,6 +27,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { AboutComponent } from './components/about/about.component';
 import { SpotifyPlaylistComponent } from './components/shared/spotify-playlist/spotify-playlist.component';
 import { GithubContributionsModule } from "@luizppa/ng-github-contributions";
+import { NavLinksComponent } from './components/nav-links/nav-links.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { GithubContributionsModule } from "@luizppa/ng-github-contributions";
     FooterComponent,
     AboutComponent,
     SpotifyPlaylistComponent,
+    NavLinksComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,15 @@
+#nav-links {
+    position: sticky;
+    top: -2px;
+    background-color: var(--dark-background-color);
+    z-index: 2;
+    border: 0;
+    height: calc(64px - 2px);
+    margin-top: -2px;
+}
+
+.nav-link {
+    padding: 16px 0;
+    cursor: pointer;
+    font-size: large;
+}
